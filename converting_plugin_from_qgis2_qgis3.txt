@@ -1,0 +1,14 @@
+dockwidget:
+
+'qgis.PyQt'
+PyQt4.QtCore:'qgis.PyQt.QtCore'
+qgis.PyQt.QtCore import pyqtSignal,QSettings
+from qgis.PyQt.QtWidgets import QDockWidget
+
+
+module:
+qgis.PyQt.QtCore
+from manual_sec_bilder_dockwidget import manual_sec_builderDockWidget: from . import manual_sec_builderDockWidget
+
+change minimum qgis version in metadata file
+when importing ofrom folder use "from .import "

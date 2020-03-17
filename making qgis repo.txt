@@ -1,0 +1,43 @@
+Plugins
+manage and install plugins
+settings
+add
+set URL to:          file:S:\Drew\QGIS_plugins\plugins.xml
+file:S:\Drew\QGIS_plugins\plugins.xml
+
+
+
+set URL to xml file.
+
+this XML file looks like this:
+
+<?xml version="1.0"?>
+<plugins>
+    <pyqgis_plugin name="sec_builder" version="1.0">
+        <description>This plugin builds list of sections</description>
+        <homepage></homepage>
+        <qgis_minimum_version>2.18</qgis_minimum_version>
+        <file_name>sec_builder.zip</file_name>
+        <author_name>Drew</author_name>
+        <download_url>file:C:\Users\drew.bennett\Documents\sec_builder\sbrepo\sec_builder.zip</download_url>
+    </pyqgis_plugin>
+</plugins>
+
+
+
+
+
+the filename matters.
+filenames with . in works fine. name with _ gives plugin has disappeared error. no idea why.
+zip file name needs name of plugin folder in it?
+this works.
+
+
+    <pyqgis_plugin name="manual_sec_builder" version="2.2">
+        <description>tool for building sec and rte files</description>
+        <homepage></homepage>
+        <qgis_minimum_version>2.0</qgis_minimum_version>
+        <file_name>manual_sec_builder.qgis2.zip</file_name>
+        <author_name>Drew</author_name>
+        <download_url>file:S:\Drew\QGIS_plugins\manual_sec_builder.qgis2.zip</download_url>
+    </pyqgis_plugin>

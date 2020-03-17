@@ -1,0 +1,12 @@
+in qgis osgeo4W shell (have multiple osgeo4W shells ):
+cd to plugin folder
+compile like this:
+pyuic4 sec_ch_widget.ui -o sec_ch_base.py
+
+doesn't try to use headers for qgsfieldcombobox etc with this. 
+
+may need to fix import in file.:
+
+correct import is 
+from qgis.gui import QgsFieldComboBox,QgsMapLayerComboBox
+

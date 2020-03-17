@@ -1,0 +1,46 @@
+pyrcc4 reads the .qrc file, and the resource files, and generates a Python module that only needs to be imported by the application in order for those resources to be made available just as if they were the original files.
+In addition to the command line options that are common with rcc, the following are also supported:
+-py2
+Generate code that will work for all versions of Python v2.x. Although this is the default, the option should be specified explicitly in case the default is changed in a future version.
+-py3
+Generate code that will work for all versions of Python starting with Python v2.6.
+pyrcc4 will only be included if your copy of Qt includes the XML module.
+
+
+make with plugin builder
+	
+draw icon
+
+in OSGeo4W shell
+cd to folder
+pyrcc4 -o resources.py -py3 resources.qrc
+
+
+if using QGIS custom widgets (QGIS/qt designer with QGIS custom widgets):
+open .ui in notepad.
+go to bottom of .ui file. Change entries like
+
+<customwidget>
+   
+<class>QgsFieldComboBox</class>
+   
+<extends>QComboBox</extends>
+   
+<header>QgsFieldComboBox.h</header>
+  
+</customwidget>
+
+to
+
+ <customwidget>
+   
+<class>QgsFieldComboBox</class>
+   
+<extends>QComboBox</extends>
+   
+<header>qgis.gui</header>
+  
+</customwidget>
+
+can do in code
+
