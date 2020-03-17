@@ -70,7 +70,7 @@
         <qgis_minimum_version>2.0</qgis_minimum_version>
         <file_name>manual_sec_builder.qgis2.zip</file_name>
         <author_name>Drew</author_name>
-        <download_url>https://github.com/Drew973/pts_qgis_plugins</download_url>
+        <download_url>https://github.com/Drew973/pts_qgis_plugins/>manual_sec_builder.qgis2.zip</download_url>
     </pyqgis_plugin>
 
     <pyqgis_plugin name="manual sec builder" version="3.2">
