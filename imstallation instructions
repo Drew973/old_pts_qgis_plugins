@@ -1,0 +1,19 @@
+Open quantum.
+Plugins
+manage and install plugins
+settings
+add
+set name to pts plugins
+set URL to:	https://raw.githubusercontent.com/Drew973/pts_qgis_plugins/master/plugins.xml
+
+right click on new repository. then show only plugins from selected repository
+not installed
+select manual sec builder and install.
+go to installed and make sure checkbox next to manual sec builder is ticked
+
+
+Open with:
+Plugins
+manual sec builder
+
+or icon.
