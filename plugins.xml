@@ -160,7 +160,8 @@
 
         <author_name>Drew</author_name>
 
-        <download_url>https://raw.githubusercontent.com/Drew973/pts_QGIS_3_Plugins/master/manual_sec_builder.zip</download_url>
+        <download_url>https://raw.githubusercontent.com/Drew973/pts_manual_sec_builder/master/manual_sec_builder.zip</download_url>
+
 
     </pyqgis_plugin>
 
