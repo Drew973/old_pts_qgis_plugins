@@ -138,11 +138,11 @@
 
         <qgis_minimum_version>2.0</qgis_minimum_version>
 
-        <file_name>manual_sec_builder2.zip</file_name>
+        <file_name>manual_sec_builder.zip</file_name>
 
         <author_name>Drew</author_name>
 
-        <download_url>https://raw.githubusercontent.com/Drew973/pts_qgis_plugins/master/manual_sec_builder2.zip</download_url>
+        <download_url>https://raw.githubusercontent.com/Drew973/pts_manual_sec_builder/master/manual_sec_builder.zip</download_url>
 
     </pyqgis_plugin>
 
