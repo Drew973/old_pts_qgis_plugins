@@ -1,0 +1,169 @@
+<?xml version="1.0"?>
+
+<plugins>
+
+    <pyqgis_plugin name="sec_builder" version="1.1">
+
+        <description>This plugin builds list of sections</description>
+
+        <homepage></homepage>
+
+        <qgis_minimum_version>2.0</qgis_minimum_version>
+
+        <file_name>sec_builder.zip</file_name>
+
+        <author_name>Drew</author_name>
+
+        <download_url>file:S:\Drew\QGIS_plugins\sec_builder.zip</download_url>
+
+    </pyqgis_plugin>
+
+
+
+    <pyqgis_plugin name="sec_to_rte" version="1.0">
+
+        <description>Converts sec file to rte file</description>
+
+        <homepage></homepage>
+
+        <qgis_minimum_version>2.0</qgis_minimum_version>
+
+        <file_name>make_rte.zip</file_name>
+
+        <author_name>Drew</author_name>
+
+        <download_url>file:S:\Drew\QGIS_plugins\make_rte.zip</download_url>
+
+    </pyqgis_plugin>
+
+
+
+    <pyqgis_plugin name="route builder" version="1.0">
+
+        <description>builds routes</description>
+
+        <homepage></homepage>
+
+        <qgis_minimum_version>2.0</qgis_minimum_version>
+
+        <file_name>route_builder.zip</file_name>
+
+        <author_name>Drew</author_name>
+
+        <download_url>file:S:\Drew\QGIS_plugins\route_builder.zip</download_url>
+
+    </pyqgis_plugin>
+
+
+
+    <pyqgis_plugin name="section finder" version="1.0">
+
+        <description>finds sections for point layer</description>
+
+        <homepage></homepage>
+
+        <qgis_minimum_version>2.0</qgis_minimum_version>
+
+        <file_name>section_finder.zip</file_name>
+
+        <author_name>Drew</author_name>
+
+        <download_url>file:S:\Drew\QGIS_plugins\section_finder.zip</download_url>
+
+    </pyqgis_plugin>
+
+
+
+    <pyqgis_plugin name="layer to sec" version="1.0">
+
+        <description>makes sec from layer</description>
+
+        <homepage></homepage>
+
+        <qgis_minimum_version>2.0</qgis_minimum_version>
+
+        <file_name>lts.zip</file_name>
+
+        <author_name>Drew</author_name>
+
+        <download_url>file:S:\Drew\QGIS_plugins\lts.zip</download_url>
+
+    </pyqgis_plugin>
+
+
+
+
+
+    <pyqgis_plugin name="site categoriser" version="1.0">
+
+        <description>tool for finding site catagories</description>
+
+        <homepage></homepage>
+
+        <qgis_minimum_version>3.0</qgis_minimum_version>
+
+        <file_name>site_categoriser_qgis3.zip</file_name>
+
+        <author_name>Drew</author_name>
+
+        <download_url>file:S:\Drew\QGIS_plugins\site_categoriser_qgis3.zip</download_url>
+
+    </pyqgis_plugin>
+
+
+
+    <pyqgis_plugin name="site categoriser" version="1.1">
+
+        <description>tool for finding site catagories</description>
+
+        <homepage></homepage>
+
+        <qgis_minimum_version>2.0</qgis_minimum_version>
+
+        <file_name>site_categoriser_qgis2.zip</file_name>
+
+        <author_name>Drew</author_name>
+
+        <download_url>file:S:\Drew\QGIS_plugins\site_categoriser_qgis2.zip</download_url>
+
+    </pyqgis_plugin>
+
+
+
+    <pyqgis_plugin name="manual_sec_builder" version="2.2">
+
+        <description>tool for building sec and rte files</description>
+
+        <homepage></homepage>
+
+        <qgis_minimum_version>2.0</qgis_minimum_version>
+
+        <file_name>manual_sec_builder2.zip</file_name>
+
+        <author_name>Drew</author_name>
+
+        <download_url>https://github.com/Drew973/pts_qgis_plugins/>manual_sec_builder2.zip</download_url>
+
+    </pyqgis_plugin>
+
+
+
+    <pyqgis_plugin name="manual sec builder" version="3.2">
+
+        <description>tool for building sec and rte files</description>
+
+        <homepage></homepage>
+
+        <qgis_minimum_version>3.0</qgis_minimum_version>
+
+        <file_name>manual_sec_builder.qgis3.zip</file_name>
+
+        <author_name>Drew</author_name>
+
+        <download_url>file:S:\Drew\QGIS_plugins\manual_sec_builder.qgis3.zip</download_url>
+
+    </pyqgis_plugin>
+
+
+
+</plugins>
